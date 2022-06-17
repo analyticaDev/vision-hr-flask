@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        #logo-head {
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+    <title>VisionHR</title>
+</head>
+<body>
+<div class="container" style="padding: 50px;">
+    <div class="row">
+        <div class="col-lg-8  offset-lg-2">
+            <img id="logo-head" src="{{ url_for('title_logo')}}" alt="">
+            <h3 class="mt-5">Vision HR</h3>
+            <img src="{{ url_for('video_feed') }}" width="100%">
+        </div>
+    </div>
+</div>
+</body>
+</html>
