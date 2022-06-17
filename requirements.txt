@@ -3,3 +3,6 @@ flask
 imutils
 matplotlib
 opencv-python
+scipy
+PyQt5
+pyqtgraph
